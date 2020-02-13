@@ -43,7 +43,7 @@ export class ApodComponent implements OnInit {
         //3.  Update this.date on each API call
         this.date = this.randomDate(new Date(1995,5,16), new Date());
         //4. Log this.date to the JS console
-        console.log(this.date);
+        // console.log(this.date);
       }
     );
 
