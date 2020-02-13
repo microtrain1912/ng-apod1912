@@ -15,5 +15,7 @@
   
     <p>{{ apod.explanation }}</p>
   
+    <button *ngIf="date" [routerLink]="['/apod', this.date]">Poke Me!</button>
+
   </main>
   
